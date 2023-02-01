@@ -1,0 +1,89 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #61dafb;
+  text-align: center;
+  margin-bottom: 2rem;
+
+}
+
+.calculator {
+  width: 100%;
+  max-width: 400px;
+  background-color: #282c34;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  background-color: #424753;
+}
+
+.display {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #61dafb;
+  background-color: #828282;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.label {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #61dafb;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  box-sizing: border-box;
+  border-radius: 1rem;
+  width: 400px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  text-align: center;
+  background-color: #828282;
+  color: #61dafb;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.button {
+  box-sizing: border-box;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 130px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  text-align: center;
+  background-color: #828282;
+  color: #61dafb;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #61dafb;
+  color: #282c34;
+}
